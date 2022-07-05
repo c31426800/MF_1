@@ -50,8 +50,10 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
+    
 }
 
+.nav-right ul li{display: inline-block;}
 .nav-right .w-full .ul-1 .ul-2 li {
     padding: 14px 15px 15px;
     font-size: 15px;
@@ -75,7 +77,8 @@ body {
     position: absolute;
     top: 35px;
     display: none;
-    border-radius:10px; ;
+    border-radius: 10px;
+    ;
 
 }
 
@@ -83,18 +86,36 @@ body {
     display: block;
 }
 
-/* li .text-365::before {
-    width: 100%;
-    height: 10px;
-    background-color: black;
+.nav-right ul li::before {
+    content: "";
+    width:100%;
+    height: 2px;
+    background-color: #0c0202;
     position: absolute;
-    bottom: 10px;
+    top: 40px;
+    display: none;
+    border-radius: 10px;
+    
+    
+
 
 }
 
-li .text-365:hover {
-    display: inline;
+.nav-right .w-full li:hover::before {
+    display: block;
+}
+/* .nav-right .search~span::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #0c0202;
+    position: absolute;
+    top: 40px;
+    display: none;
+    border-radius: 10px;
 } */
+a:hover{text-decoration: underline;}
+
 
 
 ul {
@@ -163,6 +184,7 @@ li {
 
 a {
     color: #0067b8;
+
 }
 
 .product {
@@ -273,6 +295,7 @@ h1 {
 .card {
     padding: 5px;
     width: 25%;
+    position: relative;
 
 
 }
@@ -280,26 +303,81 @@ h1 {
 .card-2 {
     padding: 5px;
     width: 25%;
+    position: relative;
 
 }
 
 .cardd {
     padding: 5px;
-    width: 25%
+    width: 25%;
+    position: relative;
+    
 }
 
 .card-4 {
     padding: 5px;
-    width: 25%
+    width: 25%;
+    position: relative;
+    
 }
 
+/* .six-1{position: relative;} */
+/* .six {
+    display: inline-block;
+}
 
+.six::before {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #0c0202;
+    position: absolute;
+    bottom: 45px;
+    display: none;
 
-/* .card {
-    margin-right: 50px;
+    border-radius: 10px;
     ;
-} */
+}
 
+.six:hover::before {
+    display: block;
+}
+
+.four::before { content: "";
+    width: 19%;
+    height: 2px;
+    background-color: #0c0202;
+    position: absolute;
+    bottom: 50px;
+    display: none;
+    border-radius: 10px;
+}
+.four:hover::before{display: block;}
+.four-1::before{
+    content: "";
+    width: 19%;
+    height: 2px;
+    background-color: #0c0202;
+    position: absolute;
+    bottom: 50px;
+    display: none;
+   
+    border-radius: 10px;
+}
+.four-1:hover::before{
+    display: block;
+}
+
+.ten::before
+{content: "";
+    width: 33%;
+    height: 2px;
+    background-color: #0c0202;
+    position: absolute;
+    bottom: 26px; */
+    /* display: none; */
+   
+    /* border-radius: 10px;} */
 .c {
     margin-bottom: 10px;
 }
