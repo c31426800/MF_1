@@ -112,9 +112,8 @@ input{
 a:hover {
     text-decoration: underline;
 }
-
-/* .Delay{transition: transform 10s  transition 0s cubic-bezier(0.32, 0, 0.67, 0);}  */
-.Delay:hover{ margin-left: 5px;  }
+ /* .Delay{transition: transform 10s  transition 0s cubic-bezier(0.32, 0, 0.67, 0);}   */
+.Delay:hover{ margin-left: 5px;}
 
 ul {
     padding: 0;
@@ -293,7 +292,7 @@ h1 {
 
 .bot {
 
-    width: 91%;
+    width: 89%;
     height: auto;
 
 }
@@ -339,7 +338,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding: 0 5%;
+    padding: 0 6%;
     height: auto;
 
 
@@ -392,7 +391,7 @@ h1 {
 
 .bot-card {
 
-    width: 91%;
+    width: 89%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
